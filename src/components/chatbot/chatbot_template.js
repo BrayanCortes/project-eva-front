@@ -125,6 +125,11 @@ const FrontChatbot = () => {
     {
         id: 'OpenQuestion',
         user: true,
+        trigger: '9',
+    },
+    {
+        id: '9',
+        message: 'Gracias por participar.',
         trigger: 'review',
     },
     {
@@ -135,7 +140,7 @@ const FrontChatbot = () => {
     },]
 
     useEffect(() => {
-        alert('Si deseas volver a usar el chatbot porfavor recarga la pagina, mirando el deployment.');
+        alert('Si deseas volver a usar el chatbot porfavor recarga la pagina.');
       }, []);
 
   return (
