@@ -1,0 +1,8 @@
+{
+    "build": {
+      "env": {
+        "CI": "true",
+        "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
+      }
+    }
+}
