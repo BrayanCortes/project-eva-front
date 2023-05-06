@@ -135,7 +135,7 @@ const FrontChatbot = () => {
     },]
 
     useEffect(() => {
-        alert('Si deseas volver a usar el chatbot porfavor recarga la pagina.');
+        alert('Si deseas volver a usar el chatbot porfavor recarga la pagina, mirando el deployment.');
       }, []);
 
   return (
