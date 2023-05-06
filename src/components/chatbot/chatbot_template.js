@@ -3,6 +3,8 @@ import ChatBot from 'react-simple-chatbot';
 import { ThemeProvider } from 'styled-components';
 import ReviewForm from '../form/form_template';
 
+
+
 const FrontChatbot = () => {
 
   const chatbotConfig = {
