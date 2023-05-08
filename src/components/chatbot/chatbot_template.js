@@ -71,6 +71,8 @@ const FrontChatbot = () => {
             if (!value.startsWith('20')) {
                 console.log(value.length);
                 return 'Rectifique su codigo, debe iniciar en 20';
+            } else if (value.length !== 9){
+                return 'Rectifique su codigo'
             }
             return true;
         },
@@ -86,7 +88,7 @@ const FrontChatbot = () => {
         trigger: 'QQuestion1',
         validator: (value) => {
             if (!value.endsWith('@correounivalle.edu.co')) {
-                return 'Use su correo universitario univalle';
+                return 'Use su correo univalle';
             } 
             return true;
         },
