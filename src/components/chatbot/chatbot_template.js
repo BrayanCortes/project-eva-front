@@ -68,10 +68,9 @@ const FrontChatbot = () => {
         user: true,
         trigger: '7',
         validator: (value) => {
-            if (!value.startsWith('20')) {
+            if (!value.startsWith('20') && value.length == 9 ) {
                 return 'Rectifique su codigo, debe iniciar en 20';
-            }else if (value.length == 9)
-                return 'Rectifique su codigo de estudiante.';
+            }
             return true;
         },
     },
