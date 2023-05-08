@@ -69,9 +69,9 @@ const FrontChatbot = () => {
         trigger: '7',
         validator: (value) => {
             if (!value.startsWith('20')) {
-                return 'Rectifique su codigo, debe iniciara en 20';
+                return 'Rectifique su codigo, debe iniciar en 20';
             }else if (value.length > 9)
-                return 'Rectifique su codigo de estudiante, debe tener un tamaño de 9 caracteres.'
+                return 'Rectifique su codigo de estudiante.'
             return true;
         },
     },
@@ -86,7 +86,7 @@ const FrontChatbot = () => {
         trigger: 'QQuestion1',
         validator: (value) => {
             if (!value.endsWith('@correounivalle.edu.co')) {
-                return 'Use su correo universitario terminado en @correounivalle.edu.co';
+                return 'Use su correo universitario univalle';
             } 
             return true;
         },
