@@ -97,7 +97,7 @@ const FrontChatbot = () => {
     },
     {
         id: 'QQuestion1',
-        message: '¿Durante la última semana con qué frecuencia te has sentido deprimido?',
+        message: '¿Durante la última semana que tan deprimido te has sentido?',
         trigger: 'Question1',
     },
     {
