@@ -18,7 +18,6 @@ const ReviewForm = (props) => {
   const [OpenQuestion, setOpenQuestion] = useState('');
   const [response, setResponse] = useState('');
   
-  //style={{ width: '90%' }}
 
   useEffect(() => {
     const { steps } = props;
@@ -33,13 +32,7 @@ const ReviewForm = (props) => {
     setQuestion3(Question3.value);
     setOpenQuestion(OpenQuestion.value);
 
-    /*
-    socket.on('response', data => {
-      setResponse(data);
-      toggleResponse = true
-    });*/
-
-  }, [props,/*response*/]);
+  }, [props]);
 
 
   if (OpenQuestion !== '' && toggleResponse === false){
