@@ -95,33 +95,33 @@ const FrontChatbot = () => {
     },
     {
         id: 'QQuestion1',
-        message: 'Que tan solo te has sentido esta semana?',
+        message: '¿Durante la última semana con qué frecuencia te has sentido deprimido?',
         trigger: 'Question1',
     },
     {
         id: 'Question1',
         options: [
-        { value: 'A', label: 'Muy Solo', trigger: 'QQuestion2' },
-        { value: 'B', label: 'Para nada Solo', trigger: 'QQuestion2' },
-        { value: 'C', label: 'No deseo responder', trigger: 'QQuestion2' },
+        { value: 'A', label: 'Muy deprimido', trigger: 'QQuestion2' },
+        { value: 'B', label: 'Para nada deprimido', trigger: 'QQuestion2' },
+        { value: 'C', label: 'Un poco deprimido', trigger: 'QQuestion2' },
         ],
     },
     {
         id: 'QQuestion2',
-        message: 'Como te sientes el dia de hoy?',
+        message: '¿Durante la última semana que tan solo te has sentido?',
         trigger: 'Question2',
     },
     {
         id: 'Question2',
         options: [
-        { value: 'A', label: 'Muy triste', trigger: 'QQuestion3' },
-        { value: 'B', label: 'Muy bien', trigger: 'QQuestion3' },
-        { value: 'C', label: 'Indeciso', trigger: 'QQuestion3' },
+        { value: 'A', label: 'Muy solo', trigger: 'QQuestion3' },
+        { value: 'B', label: 'Para nada solo', trigger: 'QQuestion3' },
+        { value: 'C', label: 'Un poco solo', trigger: 'QQuestion3' },
         ],
     },
     {
         id: 'QQuestion3',
-        message: 'Deseas ayuda profesional?',
+        message: '¿Has pasado por algún evento traumático en el último mes?',
         trigger: 'Question3',
     },
     {

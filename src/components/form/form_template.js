@@ -48,7 +48,7 @@ const ReviewForm = (props) => {
     toggleResponse = true
     socket.on('response', data => {
       setResponse(data);
-      console.log("Estoy dando la response mano wtf.");
+      console.log("response received");
     });
   }
 
