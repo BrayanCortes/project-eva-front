@@ -73,6 +73,8 @@ const FrontChatbot = () => {
                 return 'Rectifique su codigo, debe iniciar en 20';
             } else if (value.length !== 9){
                 return 'Rectifique su codigo'
+            } else if (!/^\d+$/.test(value)){
+                return 'El codigo debe ser numerico'
             }
             return true;
         },
