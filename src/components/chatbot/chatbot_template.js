@@ -97,28 +97,28 @@ const FrontChatbot = () => {
     },
     {
         id: 'QQuestion1',
-        message: '¿Durante la última semana que tan deprimido te has sentido?',
+        message: '¿Durante la última semana con que frecuencia te has sentido deprimido o triste?',
         trigger: 'Question1',
     },
     {
         id: 'Question1',
         options: [
-        { value: 'A', label: 'Muy deprimido', trigger: 'QQuestion2' },
-        { value: 'B', label: 'Para nada deprimido', trigger: 'QQuestion2' },
-        { value: 'C', label: 'Un poco deprimido', trigger: 'QQuestion2' },
+        { value: 'A', label: 'Constantemente', trigger: 'QQuestion2' },
+        { value: 'B', label: 'Ocasionalmente', trigger: 'QQuestion2' },
+        { value: 'C', label: 'Para nada deprimido', trigger: 'QQuestion2' },
         ],
     },
     {
         id: 'QQuestion2',
-        message: '¿Durante la última semana que tan solo te has sentido?',
+        message: '¿Durante la última semana que tan solo has estado?',
         trigger: 'Question2',
     },
     {
         id: 'Question2',
         options: [
-        { value: 'A', label: 'Muy solo', trigger: 'QQuestion3' },
-        { value: 'B', label: 'Para nada solo', trigger: 'QQuestion3' },
-        { value: 'C', label: 'Un poco solo', trigger: 'QQuestion3' },
+        { value: 'A', label: 'Constantemente', trigger: 'QQuestion3' },
+        { value: 'B', label: 'Ocasionalmente', trigger: 'QQuestion3' },
+        { value: 'C', label: 'Para nada solo', trigger: 'QQuestion3' },
         ],
     },
     {
