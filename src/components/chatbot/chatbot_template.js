@@ -33,7 +33,7 @@ const FrontChatbot = () => {
     },
     {
         id: 'Ask-Name',
-        message: 'Cual es tu nombre?',
+        message: '¿Cual es tu nombre?',
         trigger: 'name',
     },
     {
@@ -60,7 +60,7 @@ const FrontChatbot = () => {
     },
     {
         id: '3',
-        message: 'Podrias decirme Cual es tu codigo? Recuerda poner el 20 al inicio.',
+        message: '¿Podrías decirme cuál es tu código? Recuerda poner el 20 al inicio.',
         trigger: 'codigo',
     },
     {
@@ -70,18 +70,18 @@ const FrontChatbot = () => {
         validator: (value) => {
             if (!value.startsWith('20')) {
                 console.log(value.length);
-                return 'Rectifique su codigo, debe iniciar en 20';
+                return 'Rectifique su código, debe iniciar en 20';
             } else if (value.length !== 9){
-                return 'Rectifique su codigo'
+                return 'Rectifique su código'
             } else if (!/^\d+$/.test(value)){
-                return 'El codigo debe ser numerico'
+                return 'El código debe ser numérico'
             }
             return true;
         },
     },
     {
         id: '7',
-        message: 'Podrias decirme Cual es tu correo universitario?',
+        message: '¿Podrías decirme cuál es tu correo universitario?',
         trigger: 'email',
     },
     {
@@ -136,7 +136,7 @@ const FrontChatbot = () => {
     },
     {
         id: '8',
-        message: 'Porfavor, escribe en detalle como te has sentido estos ultimos días, que sucesos importantes han ocurrido.',
+        message: 'Por Favor, escribe en detalle cómo te has sentido estos últimos días, que sucesos importantes han ocurrido.',
         trigger: 'OpenQuestion',
     },
     {
@@ -157,7 +157,7 @@ const FrontChatbot = () => {
     },]
 
     useEffect(() => {
-        alert('Si deseas volver a usar el chatbot porfavor recarga la pagina.');
+        alert('Si deseas volver a usar el chatbot por favor recarga la página.');
       }, []);
 
   return (
