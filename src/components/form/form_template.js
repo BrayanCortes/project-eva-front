@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 
 import io from 'socket.io-client';
 
-const port = 5000;
-const socket = io(`http://localhost:${port}`);
+const port = 3389;
+const socket = io(`34.125.25.16:${port}`);
 var toggleResponse = false
 
 const ReviewForm = (props) => {
