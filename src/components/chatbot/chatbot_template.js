@@ -50,7 +50,7 @@ const FrontChatbot = () => {
         id: 'datos',
         options: [
             { value: true , label: 'Acepto', trigger: 'recorderis' },
-            { value: false, label: 'No Acepto', trigger: '7' },
+            { value: false, label: 'No Acepto', trigger: '3' },
         ]
     },
     {
