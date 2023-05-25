@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import io from 'socket.io-client';
 
 const port = 3389;
-const socket = io(`34.125.25.16:${port}`);
+const socket = io(`http://34.125.25.16:${port}`);
 var toggleResponse = false
 
 const ReviewForm = (props) => {
