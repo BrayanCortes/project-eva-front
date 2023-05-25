@@ -7,7 +7,7 @@ const FrontChatbot = () => {
 
   const chatbotConfig = {
     floating: true,
-    headerTitle: "ProyectoEva",
+    headerTitle: "Proyecto EVA",
     enableMobileAutoFocus: true,
     opened: true,
     placeholder: "Mensaje",
