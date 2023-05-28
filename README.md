@@ -1,8 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
+# Eva Frotend
 ## Getting Started
 
-First, run the development server:
+Para desplegar el servidor de desarrollo, use en la consola de comandos lo siguiente:
 
 ```bash
 npm run dev
@@ -12,24 +11,18 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) con su navegador para ver el resultado.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+usted puede empezar modificando el archivo `pages/index.js`. la pagina se auto recargara cada que usted haga un cambio y lo guarde
 
 ## Deploy on Vercel
-frontend deploy in vercel, if you want to see the prototype please follow the following link:https://project-eva-front.vercel.app/
+Frontend desplegado en vercel, para ver el prototipo por favor siga el siguiente link:https://project-eva-front.vercel.app/
+
+## Tener en cuenta:
+1. Para que la página web funcione debe copiar el siguiente link en su navegador:https://project-eva-front.vercel.app/, en este caso se usara google chrome para el ejemplo pero puede usarlo en cualquier navegador.
+2. Después debe ingresar al apartado de configuración, en la pestaña de privacidad y seguridad.
+3. De click en el apartado de Configuración de sitios y baje hasta el desplegable que dice contenido adicional.
+4. De clic, esto desplegará una lista donde usted selecciona el apartado que dice Contenido no seguro.
+5. Una vez dentro de contenido no seguro, buscará el apartado que dice, puede mostrar contenido no seguro, dará click en el botón de añadir y colocara el siguiente link: https://project-eva-front.vercel.app/, seguidamente dara click en guardar y visitara el sitio web del prototipo, si siguió los pasos anteriormente mencionados de manera correcta la barra de navegación una vez entre al prototipo debería de aparecer de la siguiente forma:
+
+image.png
