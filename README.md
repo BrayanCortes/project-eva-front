@@ -25,5 +25,4 @@ Frontend desplegado en vercel, para ver el prototipo por favor siga el siguiente
 4. De clic, esto desplegará una lista donde usted selecciona el apartado que dice Contenido no seguro.
 5. Una vez dentro de contenido no seguro, buscará el apartado que dice, puede mostrar contenido no seguro, dará click en el botón de añadir y colocara el siguiente link: https://project-eva-front.vercel.app/, seguidamente dara click en guardar y visitara el sitio web del prototipo, si siguió los pasos anteriormente mencionados de manera correcta la barra de navegación una vez entre al prototipo debería de aparecer de la siguiente forma:
 
-![Imagen barra de busqueda despues de activacion de contenido no seguro](https://raw.githubusercontent.com/BrayanCortes/project-eva-front/master/public/Eva-barra.png)
-![Eva-barra](https://github.com/BrayanCortes/project-eva-front/assets/101487602/56afeb48-dca1-4f1c-8d2f-aef8ab9b6dac)
+[![Eva-barra.png](https://i.postimg.cc/9XqDmMxs/Eva-barra.png)](https://postimg.cc/6TtWz9xh)
